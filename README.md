@@ -1,5 +1,6 @@
-# Youtube assistent: ask question about a video
+# Youtube assistent powered by LLM
 
+- Ask question about a youtube video
 - Python + LangChain
 
 Install the required packages:
@@ -8,7 +9,7 @@ Install the required packages:
 pip install -r requirements.txt
 ```
 
-Running app:
+Running app: (remember to add your own OPENAI_API_KEY to .env file)
 
 ```bash
 streamlit run main.py
